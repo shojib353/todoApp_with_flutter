@@ -48,6 +48,7 @@ class DefaultFirebaseOptions {
     authDomain: 'todoapp-5c9d8.firebaseapp.com',
     storageBucket: 'todoapp-5c9d8.firebasestorage.app',
     measurementId: 'G-REN72DSM5S',
+    databaseURL:"https://todoapp-5c9d8-default-rtdb.asia-southeast1.firebasedatabase.app",
   );
 
   static const FirebaseOptions android = FirebaseOptions(
@@ -56,6 +57,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '345674744115',
     projectId: 'todoapp-5c9d8',
     storageBucket: 'todoapp-5c9d8.firebasestorage.app',
+    databaseURL:"https://todoapp-5c9d8-default-rtdb.asia-southeast1.firebasedatabase.app",
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -65,6 +67,7 @@ class DefaultFirebaseOptions {
     projectId: 'todoapp-5c9d8',
     storageBucket: 'todoapp-5c9d8.firebasestorage.app',
     iosBundleId: 'com.example.todoApp',
+    databaseURL:"https://todoapp-5c9d8-default-rtdb.asia-southeast1.firebasedatabase.app",
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -74,6 +77,7 @@ class DefaultFirebaseOptions {
     projectId: 'todoapp-5c9d8',
     storageBucket: 'todoapp-5c9d8.firebasestorage.app',
     iosBundleId: 'com.example.todoApp',
+    databaseURL:"https://todoapp-5c9d8-default-rtdb.asia-southeast1.firebasedatabase.app",
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
@@ -84,5 +88,6 @@ class DefaultFirebaseOptions {
     authDomain: 'todoapp-5c9d8.firebaseapp.com',
     storageBucket: 'todoapp-5c9d8.firebasestorage.app',
     measurementId: 'G-Q3WZ55L4ZM',
+    databaseURL:"https://todoapp-5c9d8-default-rtdb.asia-southeast1.firebasedatabase.app",
   );
 }
